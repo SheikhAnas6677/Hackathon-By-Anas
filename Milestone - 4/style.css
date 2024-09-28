@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+form{
+    border: 2px solid white;
+    width: 50%;
+    margin: 10px 0 15px 230px;
+    height: 860px;
+    background-color: #9CBC2C;
+    border-radius: 20px;
+    box-shadow: 0 8px 8px 4px rgb(31, 31, 31);
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    font-family:'Segoe UI';
+    color: #9CBC2C;
+}
+    
+
+button{
+    height: 50px;
+    width: 180px;
+    border-radius: 10px;
+    margin-left: 160px;
+    margin-top: 20px;
+    background-color: #00246B;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.name{
+    height: 40px;
+    background-color: #B9CF6A;
+    border: 2px solid #E0E9BC;
+    border-radius: 10px;
+    width: 95%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.email{
+    height: 40px;
+    background-color: #B9CF6A;
+    border: 2px solid #E0E9BC;
+    border-radius: 10px;
+    width: 95%;
+    margin: 3px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+}
+.contact{
+    height: 40px;
+    background-color: #B9CF6A;
+    border: 2px solid #E0E9BC;
+    border-radius: 10px;
+    width: 95%;
+    margin: 3px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.education{
+    height: 130px;
+    background-color: #B9CF6A;
+    border: 2px solid #E0E9BC;
+    border-radius: 10px;
+    width: 95%;
+    margin: 0px 0px 0px 10px;
+    align-items: center; 
+}
+
+.skill{
+    height: 130px;
+    background-color: #B9CF6A;
+    border: 2px solid #E0E9BC;
+    border-radius: 10px;
+    width: 95%;
+    margin: 0px 0px 0px 10px;
+    align-items: center; 
+}
+.Work{
+    height: 130px;
+    background-color: #B9CF6A;
+    border: 2px solid #E0E9BC;
+    border-radius: 10px;
+    width: 95%;
+    margin: 0px 0px 0px 10px;
+    align-items: center; 
+}
+
+.name label{
+    margin-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 550;
+}
+
+.email label{
+    margin-left: 43px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 550;
+}
+.contact label{
+    margin-left: 38px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 550;
+}
+
+label{
+    margin-left: 38px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 550;
+}
+
+
+input{
+    margin-left: 60px;
+    height: 30px;
+    border-radius: 5px;
+    width: 250px;
+    border: none;
+    text-align: center;
+}
+
+.education textarea{
+    margin-left: 35px;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 250px;
+    height: 100px;
+    border: none;
+}
+.education label{
+  display: flex;
+  align-items: center;
+  margin-top:5px;
+}
+
+
+.courses label{
+    display: flex;
+    align-items: center;
+    margin-top:5px;
+  }
+.courses textarea{
+    margin-left: 78px;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 250px;
+    height: 100px;
+    border: none;
+}
+
+.Experience label{
+    display: flex;
+    align-items: center;
+    margin-top:5px;
+  }
+
+.Experience textarea{
+    margin-left: 25px;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 250px;
+    height: 100px;
+    border: none;
+}
+h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+#ResumeOutput{
+    border: 2px solid white;
+    width: 50%;
+    margin: 10px 0 15px 230px;
+    background-color:#9CBC2C;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 4px rgb(31, 31, 31);
+    padding: 10px;
+}
+#ResumeOutput h2{
+    text-align: center;
+    margin-top: 20px;
+}
+#ResumeOutput p{
+    background-color: #B9CF6A;
+    border:2px solid #E0E9BC;
+    border-radius: 5px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+#ResumeOutput h4{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+
+
+@media screen and (max-width:600px) {
+    *{
+        margin: 0 px;
+        padding: 0 px;
+    }
+    
+    
+    form{
+        border: 2px solid white;
+        width: 70%;
+        margin: 10px 0 15px 45px;
+        height: 90%;
+        background-color: #9CBC2C;
+        border-radius: 20px;
+        box-shadow: 0 8px 8px 4px rgb(31, 31, 31);
+    }
+    h1{
+        text-align: center;
+        font-size: 25px;
+        font-family:'Segoe UI';
+        color: #9CBC2C;
+    }
+        
+    
+    button{
+        height: 50px;
+        width: 180px;
+        border-radius: 10px;
+        margin-left: 35px;
+        margin-top: 20px;
+        background-color: #00246B;
+        color: #B3B7A7;
+    }
+
+    button:hover{
+        cursor: pointer;
+    }
+    
+    .name{
+        height: 90px;
+        background-color: #B9CF6A;
+        border: 2px solid #E0E9BC;
+        border-radius: 10px;
+        width: 95%;
+        margin-left: 5px;
+        display: flex;
+        align-items: center;
+    }
+    .email{
+        height: 90px;
+        background-color: #B9CF6A;
+        border: 2px solid #E0E9BC;
+        border-radius: 10px;
+        width: 95%;
+        margin: 3px 0px 0px 5px;
+        display: flex;
+        align-items: center;
+    }
+    .contact{
+        height: 90px;
+        background-color: #B9CF6A;
+        border: 2px solid #E0E9BC;
+        border-radius: 10px;
+        width: 95%;
+        margin: 3px 0px 0px 5px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .education{
+        height: 140px;
+        background-color: #B9CF6A;
+        border: 2px solid #E0E9BC;
+        border-radius: 10px;
+        width: 95%;
+        margin: 0px 0px 0px 5px;
+    }
+    
+    .skill{
+        height: 140px;
+        background-color: #B9CF6A;
+        border: 2px solid #E0E9BC;
+        border-radius: 10px;
+        width: 95%;
+        margin: 0px 0px 0px 5px;
+ 
+    }
+    .Work{
+        height: 140px;
+        background-color: #B9CF6A;
+        border: 2px solid #E0E9BC;
+        border-radius: 10px;
+        width: 95%;
+        margin: 0px 0px 0px 5px;
+    }
+    
+    .name label{
+        margin-left: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 550;
+    }
+    
+    .email label{
+        margin-left: 14px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 550;
+    }
+    .contact label{
+        margin-left: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 550;
+    }
+
+    label{
+        margin-left: 5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 550;
+    }
+ 
+    input{
+        margin-left: 10px;
+        height: 30px;
+        border-radius: 5px;
+        width: 140px;
+        border: none;
+        text-align: center;
+    }
+    
+    .education textarea{
+        margin-left: 5px;
+        margin-top: 15px;
+        border-radius: 5px;
+        width: 120px;
+        height: 100px;
+        border: none;
+    }
+    .education label{
+      display: flex;
+      align-items: center;
+      margin-top:5px;
+    }
+    
+    
+    .courses label{
+        display: flex;
+        align-items: center;
+        margin-top:5px;
+      }
+    .courses textarea{
+        margin-left: 48px;
+        margin-top: 15px;
+        border-radius: 5px;
+        width: 120px;
+        height: 100px;
+        border: none;
+    }
+    
+    .Experience label{
+        display: flex;
+        align-items: center;
+        margin-top:5px;
+      }
+    
+    .Experience textarea{
+        margin-left: 2px;
+        margin-top: 15px;
+        border-radius: 5px;
+        width: 120px;
+        height: 100px;
+        border: none;
+    }
+    h3{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+    
+    }
+    #ResumeOutput{
+        border: 2px solid white;
+        width: 72%;
+        margin: 10px 0 15px 45px;
+        background-color:#9CBC2C;
+        border-radius: 10px;
+        box-shadow: 0 8px 8px 4px rgb(31, 31, 31);
+        padding: 5px;
+    } 
+
+    #ResumeOutput h2{
+        text-align: center;
+        margin-top: 20px;
+    }
+    #ResumeOutput p{
+        background-color: #B9CF6A;
+        border:2px solid #E0E9BC;
+        border-radius: 5px;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        padding-left: 15px;
+    }
+    
+    #ResumeOutput h4{
+        margin-top: 15px;
+        margin-left: 15px;
+        font-size: 20px;
+    }
+}

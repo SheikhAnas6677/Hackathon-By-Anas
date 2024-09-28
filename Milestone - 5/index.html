@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shareable And Download Resume Builder</title>
+</head>
+<body>
+    <h1>Shareable And Download Resume Builder <br> By Anas Sheikh</h1>
+    <form id="ResumeForm">
+        <h3>Personal Information</h3>
+        <div class="personal-info">
+
+   <div class="username">
+                <label for="URL"> Username : 
+                    <input type="text" id="username" name="username" placeholder="Enter Any Name you wanna make a link" required>
+                </label>
+            </div>
+
+
+            <div class="name">
+                <label for="Name"> Name : 
+                    <input type="text" id="name" name="name" placeholder="Enter your Name" required>
+                </label>
+            </div>
+
+
+
+            <div class="email">
+                <label for="email"> Email : 
+                    <input type="text" id="email" name="email" placeholder="Abc@gmail.com" required>
+                </label>
+            </div>
+
+
+            <div class="contact">
+                <label for="Phone"> Phone : 
+                    <input type="text" id="phone" name="phone" placeholder="Eg : +9321-123456200" required>
+                </label>
+            </div>
+        </div>
+
+          <h3>Education</h3>
+
+          <div class="Qualification">
+               <div class="education">
+                     <label for="education"> Education : <br>
+                        <textarea name="education" id="education" rows="5" required></textarea>
+                     </label>
+                </div>
+            </div>
+
+        <h3>Skills</h3>
+
+        <div class="skill">
+            <div class="courses">
+                <label for="Skill"> Skill : 
+                    <textarea name="Skill" id="skill" rows="5" required ></textarea>
+                </label>
+            </div>
+        </div>
+
+
+        <h3> Work Experience </h3>
+     <div class="Work">
+     <div class="Experience">
+        <label for="experience"> Experience : 
+            <textarea name="experience" id="experience"  rows="5" required ></textarea>
+        </label>
+     </div>
+     </div>
+
+     <button type="submit"> Generate Your Resume</button>
+    </form>
+    <div id="ResumeOutput"></div>
+    <div id="shareable-link-container">
+        <h2>Shareable Link</h2>
+        <a href="#" id="shareable-link" target="_blank"></a>
+        <button id="Download-pdf"> Download As PDF</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
